@@ -1,7 +1,10 @@
 # Define required macros here
 SHELL = /bin/sh
 
-OBJS = core/main.c core/arguments.c
+OBJS = core/main.c \
+	   core/arguments.c \
+	   core/signature.c \
+	   core/file.c
 CFLAG = -Wall -g
 CC = gcc
 INCLUDE =
